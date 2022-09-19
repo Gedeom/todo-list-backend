@@ -18,7 +18,7 @@
 * User: root
 * Password: FMpfD2SdVm
   
-#### Installation**
+#### Installation
 ```sh
 cd todo-list-backend
 cp .env.example .env
@@ -36,6 +36,7 @@ To do list repository is very easy to install and deploy in a Docker container.
 cd todo-list-backend
 docker-compose up -d --build
 docker-compose exec app bash
+cp .env.example .env
 composer install
 php artisan key:generate
 php artisan migrate

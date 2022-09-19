@@ -42,7 +42,7 @@ services:
     restart: unless-stopped
     tty: true
     ports:
-      - "3306:3306"
+      - 3307:3306
     environment:
       MARIADB_DATABASE: db_todolist
       MARIADB_ROOT_PASSWORD: 'FMpfD2SdVm'
